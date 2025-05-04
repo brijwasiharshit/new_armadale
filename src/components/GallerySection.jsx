@@ -1,0 +1,71 @@
+// components/GallerySection.jsx
+import { useState } from "react";
+
+import IMG_1 from '../assets/images/gallery/img1.png';
+import IMG_2 from '../assets/images/gallery/img2.png';
+import IMG_3 from '../assets/images/gallery/img3.png';
+import IMG_4 from '../assets/images/gallery/img4.png';
+import IMG_5 from '../assets/images/gallery/img5.png';
+import IMG_6 from '../assets/images/gallery/img6.png';
+import IMG_7 from '../assets/images/gallery/img7.png';
+import IMG_8 from '../assets/images/gallery/img8.png';
+
+const GallerySection = () => {
+  const categories = ["All", "Deluxe Room", "Luxury Room", "Royal Room"];
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const galleryItems = [
+    { src: IMG_1, category: "Deluxe Room" },
+    { src: IMG_2, category: "Luxury Room" },
+    { src: IMG_3, category: "Royal Room" },
+    { src: IMG_4, category: "Deluxe Room" },
+    { src: IMG_5, category: "Luxury Room" },
+    { src: IMG_6, category: "Royal Room" },
+    { src: IMG_7, category: "Luxury Room" },
+    { src: IMG_8, category: "Deluxe Room" },
+  ];
+
+  const filteredItems =
+    activeCategory === "All"
+      ? galleryItems
+      : galleryItems.filter((item) => item.category === activeCategory);
+
+  return (
+    <section className="py-20 bg-white text-center">
+      <h4 className="text-sm tracking-widest uppercase text-gray-400 mb-2">
+        Hoteler Gallery
+      </h4>
+      <h2 className="text-4xl font-serif font-semibold mb-6">
+        Our Most Popular Gallery
+      </h2>
+      <div className="flex justify-center gap-6 mb-10">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setActiveCategory(cat)}
+            className={`text-lg font-medium transition ${
+              activeCategory === cat
+                ? "text-yellow-700 underline underline-offset-4"
+                : "text-gray-400 hover:text-yellow-700"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <div className="grid gap-6 px-6 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
+        {filteredItems.map((item, index) => (
+          <img
+            key={index}
+            src={item.src}
+            alt={`Gallery item ${index + 1}`}
+            className="rounded-lg shadow-lg hover:scale-105 transition-transform"
+          />
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default GallerySection;
