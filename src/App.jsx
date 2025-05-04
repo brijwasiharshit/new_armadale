@@ -8,8 +8,9 @@ import ServicesSection from "./components/ServiceSection";
 import StatsSection from "./components/StatsSection";
 import FacilitiesSection from "./components/FacilitiesSection";
 import GallerySection from "./components/GallerySection";
-import TeamSection from "./components/TeamSection";
+
 import Footer from "./components/Footer";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <StatsSection />
       <FacilitiesSection />
       <GallerySection />
-      <TeamSection />
+      <TestimonialsSection />
       <Footer />
       </div>
    

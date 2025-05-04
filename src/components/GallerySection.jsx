@@ -31,7 +31,7 @@ const GallerySection = () => {
       : galleryItems.filter((item) => item.category === activeCategory);
 
   return (
-    <section className="py-20 bg-white text-center">
+    <section id='gallery' className="py-20 bg-gradient-to-b from-[#f9f3ed] to-[#f0e6d9] text-center">
       <h4 className="text-sm tracking-widest uppercase text-gray-400 mb-2">
         Hoteler Gallery
       </h4>

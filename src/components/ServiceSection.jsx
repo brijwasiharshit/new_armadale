@@ -8,9 +8,9 @@ const ServicesSection = () => {
       description: "Secure your luxury stay in advance with our easy booking system"
     },
     {
-      title: "Swimming Pool",
+      title: "24×7 Service",
       image: "/images/pool.jpg",
-      description: "Refresh in our temperature-controlled infinity pool with mountain views"
+      description: "Enjoy round-the-clock assistance and amenities to make your stay seamless"
     },
     {
       title: "Gourmet Dining",
@@ -20,7 +20,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="px-6 sm:px-8 lg:px-12 py-12 md:py-20 bg-white max-w-7xl mx-auto">
+    <section id="services" className="px-6 sm:px-8 lg:px-12 py-12 md:py-20 bg-white max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row gap-12 xl:gap-16">
         {/* Left Text Section */}
         <div className="lg:w-1/3 flex flex-col justify-center">
@@ -34,9 +34,11 @@ const ServicesSection = () => {
           <p className="text-gray-600 sm:text-gray-500 text-base sm:text-lg mb-8 max-w-lg">
             At New Armadale, hospitality isn't just a profession—it's our passion. Every corner reflects elegance and comfort.
           </p>
-          <button className="bg-[#a1784c] hover:bg-[#8a6946] text-white px-8 py-3.5 font-medium uppercase tracking-wider text-sm sm:text-base transition duration-300 shadow-md hover:shadow-lg w-fit">
-            Contact Us
-          </button>
+          <a href="tel:+918630765606">
+            <button className="bg-[#a1784c] hover:bg-[#8a6946] text-white px-8 py-3.5 font-medium uppercase tracking-wider text-sm sm:text-base transition duration-300 shadow-md hover:shadow-lg w-fit">
+              Contact Us
+            </button>
+          </a>
         </div>
 
         {/* Right Cards Section */}

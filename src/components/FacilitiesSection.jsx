@@ -33,7 +33,7 @@ const FacilitiesSection = () => {
     ];
   
     return (
-      <div className="relative bg-gradient-to-b  py-20 overflow-hidden">
+      <div id='services' className="relative bg-gradient-to-b  py-20 overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-32 h-32 bg-[#a1784c] rounded-full filter blur-3xl"></div>

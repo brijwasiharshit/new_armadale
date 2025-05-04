@@ -7,7 +7,7 @@ const StatsSection = () => {
     ];
   
     return (
-      <div className="relative bg-gradient-to-b from-[#f9f3ed] to-[#f0e6d9] py-20 overflow-hidden">
+      <div id='stats' className="relative bg-gradient-to-b from-[#f9f3ed] to-[#f0e6d9] py-20 overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-32 h-32 bg-[#a1784c] rounded-full filter blur-3xl"></div>
