@@ -35,11 +35,11 @@ const StickyNavbar = () => {
 
           {/* Desktop Menu */}
           <nav className="space-x-8 hidden md:flex text-sm font-semibold text-gray-800">
-            <a href="tel:+918630765606" className="hover:text-[#A67C52] transition duration-300">HOME</a>
-            <a href="tel:+918630765606" className="hover:text-[#A67C52] transition duration-300">STATS</a>
-            <a href="tel:+918630765606" className="hover:text-[#A67C52] transition duration-300">SERVICES</a>
-            <a href="tel:+918630765606" className="hover:text-[#A67C52] transition duration-300">REVIEWS</a>
-            <a href="tel:+918630765606" className="hover:text-[#A67C52] transition duration-300">GALLERY</a>
+            <a href="#home" className="hover:text-[#A67C52] transition duration-300">HOME</a>
+            <a href="#stats" className="hover:text-[#A67C52] transition duration-300">STATS</a>
+            <a href="#services" className="hover:text-[#A67C52] transition duration-300">SERVICES</a>
+            <a href="#reviews" className="hover:text-[#A67C52] transition duration-300">REVIEWS</a>
+            <a href="#gallery" className="hover:text-[#A67C52] transition duration-300">GALLERY</a>
           </nav>
 
           {/* Right Side */}
@@ -79,22 +79,19 @@ const StickyNavbar = () => {
             </div>
             
             <div className="flex flex-col space-y-4 px-6 py-4">
-              <a href="tel:+918630765606" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
+              <a href="#home" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
                 HOME
               </a>
-              <a href="tel:+918630765606" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
-                ABOUT
+              <a href="#stats" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
+                STATS
               </a>
-              <a href="tel:+918630765606" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
-                ROOMS
+              <a href="#services" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
+                SERVICES
               </a>
-              <a href="tel:+918630765606" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
-                DINING
+              <a href="#reviews" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
+                REVIEWS
               </a>
-              <a href="tel:+918630765606" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
-                CONTACT
-              </a>
-              <a href="tel:+918630765606" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
+              <a href="#gallery" className="text-gray-800 hover:text-[#A67C52] transition duration-300 py-2 border-b border-gray-100 font-medium" onClick={toggleMenu}>
                 GALLERY
               </a>
 
