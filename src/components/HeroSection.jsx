@@ -17,7 +17,7 @@ const HotelHeroSection = () => {
 
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gray-900">
-          Among The Top Luxury<br className="hidden sm:block" />
+          Among The Top Luxury  <br className="hidden sm:block" />
           Hotels In <br className="hidden sm:block" />
           <span className="text-black inline-block relative">
             Nainital
