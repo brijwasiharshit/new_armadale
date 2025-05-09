@@ -1,4 +1,4 @@
-import HERO_IMG from '../assets/images/heroImg.png';
+import HERO_IMG from '../assets/images/gallery/img2.jpg';
 
 const HotelHeroSection = () => {
   return (

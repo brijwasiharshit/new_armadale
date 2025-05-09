@@ -1,34 +1,35 @@
+import MULTI_CUISINE from '../assets/images/gallery/multicuisine.png'
+import WIFI from '../assets/images/gallery/wifi.png'
+import LAKE_VIEW from '../assets/images/gallery/lake_view.png'
+import ROOM_SERVICE from '../assets/images/gallery/room_service.png'
+import SECURE_PARKING from '../assets/images/gallery/secure_parking.png'
 const FacilitiesSection = () => {
     const facilities = [
       { 
         title: "Multi-Cuisine Restaurant", 
-        icon: "/icons/restaurant.png",
+        icon: MULTI_CUISINE,
         description: "Savor authentic Kumaoni flavors and international cuisine at our in-house restaurant with panoramic mountain views"
       },
-      { 
-        title: "Conference Hall", 
-        icon: "/icons/meeting.png",
-        description: "Host business meetings and events in our fully-equipped conference space with modern amenities"
-      },
+    
       { 
         title: "High-Speed Wi-Fi", 
-        icon: "/icons/wifi.png",
+        icon: WIFI,
         description: "Stay connected with complimentary high-speed internet throughout the property"
       },
       { 
         title: "Nainital Lake View", 
-        icon: "/icons/city.png",
+        icon: LAKE_VIEW,
         description: "Wake up to breathtaking views of Naini Lake and surrounding Himalayan peaks"
       },
       { 
         title: "24/7 Room Service", 
-        icon: "/icons/room-service.png",
+        icon: ROOM_SERVICE,
         description: "Enjoy round-the-clock dining with our prompt and discreet room service"
       },
       { 
         title: "Secure Parking", 
-        icon: "/icons/parking.png",
-        description: "Complimentary secured parking space for all our guests' vehicles"
+        icon: SECURE_PARKING,
+        description: "Complimentary secured parking space for all our guests vehicles"
       },
     ];
   

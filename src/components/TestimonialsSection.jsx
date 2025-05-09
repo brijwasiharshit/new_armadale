@@ -4,35 +4,33 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Rahul & Priya Sharma",
-      location: "New Delhi",
+      name: "VinodVijayvargiya",
       rating: 5,
-      content: "Our anniversary stay at New Armadale was magical! The lake-view suite was breathtaking, and the staff went above and beyond to make our stay special with rose petals and a complimentary cake. The Kumaoni thali at the restaurant was the best we've ever had.",
-      date: "March 2024"
+      content: "The hospitality was great. Food was excellent. Mr Pooran are fabulous. They take good care of the guests by co-ordinating well with the staff. ||The Room itself was very nice. Overall experience was top notch.",
+      date: "March 2025"
     },
     {
       id: 2,
       name: "Emily Carter",
-      location: "London, UK",
-      rating: 5,
-      content: "As a solo traveler, I felt incredibly safe and welcomed at New Armadale. The concierge arranged wonderful nature walks, and my room had the most comfortable bed I've slept in during my India trip. The morning views of Naini Lake from my balcony were worth every penny.",
-      date: "January 2024"
+      rating: 4,
+      content: "The hospitality of the staff is one of the best",
+      date: "January 2025"
     },
     {
       id: 3,
-      name: "The Kapoor Family",
+      name: "Neha Singh",
       location: "Mumbai",
       rating: 4,
-      content: "Perfect family getaway! Our children loved the indoor games room while we enjoyed the spa. The heated pool was a blessing in December. Only suggestion would be more vegetarian options at breakfast, but overall an excellent experience.",
-      date: "December 2023"
+      content: "It was a very great experience... Greatl hospitality and nice ambience.",
+      date: "December 2024"
     },
     {
       id: 4,
-      name: "Dr. Amit Patel",
+      name: "Shrawan Sah",
       location: "Bangalore",
       rating: 5,
-      content: "Attended a medical conference at New Armadale and was impressed by both the conference facilities and the luxurious accommodations. The soundproofing in the rooms allowed for perfect rest between sessions. Will definitely return for leisure!",
-      date: "November 2023"
+      content: "Really great experience",
+      date: "February 2025"
     }
   ];
 
