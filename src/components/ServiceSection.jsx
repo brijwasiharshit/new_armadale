@@ -1,7 +1,7 @@
 import React from "react";
 import PRE_BOOKING from '../assets/images/gallery/outdoor.png';
 import RECEPTION from '../assets/images/gallery/reception.png'
-import NAINITAL from '../assets/images/gallery/nainital.png'
+import ROOM from '../assets/images/gallery/img4.jpg'
 const ServicesSection = () => {
   const services = [
     {
@@ -9,16 +9,17 @@ const ServicesSection = () => {
       image: PRE_BOOKING,
       description: "Secure your luxury stay in advance with our easy booking system"
     },
-    {
-      title: "24×7 Service",
-      image: RECEPTION,
-      description: "Enjoy round-the-clock assistance and amenities to make your stay seamless"
-    },
-    {
-      title: "Ideal View",
-      image: NAINITAL, 
-      description: "Wake up to stunning vistas and panoramic landscapes right from your room"
-    }
+   {
+  title: "Concierge Assistance",
+  image: RECEPTION,
+  description: "Get personalized help with reservations, local insights, and tailored recommendations"
+},
+   {
+  title: "Spacious Rooms",
+  image: ROOM, 
+  description: "Relax in generously sized rooms designed for maximum comfort and luxury"
+}
+
   ];
   
 

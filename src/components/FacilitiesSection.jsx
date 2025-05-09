@@ -1,6 +1,6 @@
 import MULTI_CUISINE from '../assets/images/gallery/multicuisine.png'
 import WIFI from '../assets/images/gallery/wifi.png'
-import LAKE_VIEW from '../assets/images/gallery/lake_view.png'
+import HILL_VIEW from '../assets/images/gallery/hill_view.png'
 import ROOM_SERVICE from '../assets/images/gallery/room_service.png'
 import SECURE_PARKING from '../assets/images/gallery/secure_parking.png'
 const FacilitiesSection = () => {
@@ -17,15 +17,11 @@ const FacilitiesSection = () => {
         description: "Stay connected with complimentary high-speed internet throughout the property"
       },
       { 
-        title: "Nainital Lake View", 
-        icon: LAKE_VIEW,
-        description: "Wake up to breathtaking views of Naini Lake and surrounding Himalayan peaks"
+        title: "Hill View", 
+        icon: HILL_VIEW,
+        description: "Wake up to breathtaking views of Himalayan peaks"
       },
-      { 
-        title: "24/7 Room Service", 
-        icon: ROOM_SERVICE,
-        description: "Enjoy round-the-clock dining with our prompt and discreet room service"
-      },
+     
       { 
         title: "Secure Parking", 
         icon: SECURE_PARKING,
