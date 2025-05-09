@@ -8,7 +8,7 @@ import ServicesSection from "./components/ServiceSection";
 import StatsSection from "./components/StatsSection";
 import FacilitiesSection from "./components/FacilitiesSection";
 import GallerySection from "./components/GallerySection";
-
+import RoomSize from "./components/RoomSize";
 import Footer from "./components/Footer";
 import TestimonialsSection from "./components/TestimonialsSection";
 
@@ -22,6 +22,7 @@ function App() {
       <StatsSection />
       <FacilitiesSection />
       <GallerySection />
+      <RoomSize />
       <TestimonialsSection />
       <Footer />
       </div>
