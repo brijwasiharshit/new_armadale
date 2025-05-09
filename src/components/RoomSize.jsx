@@ -3,19 +3,19 @@ const RoomSizesSection = () => {
     {
       name: "Luxury Suite",
       size: "420 sq ft",
-      count: 1,
+  
       description: "Our most spacious accommodation with separate living area, premium amenities, and panoramic views of Naini Lake"
     },
     {
       name: "Deluxe Rooms",
       size: "241 sq ft",
-      count: 8,
+  
       description: "Spacious rooms with modern comforts and stunning mountain or lake views"
     },
     {
       name: "Standard Rooms",
       size: "220 sq ft",
-      count: 11,
+
       description: "Comfortable and well-appointed rooms perfect for short stays"
     }
   ];
@@ -42,9 +42,7 @@ const RoomSizesSection = () => {
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-serif font-medium text-gray-800">{room.name}</h3>
-                  <span className="bg-[#A67C52] text-white text-xs font-bold px-3 py-1 rounded-full">
-                    {room.count} {room.count === 1 ? 'Room' : 'Rooms'}
-                  </span>
+               
                 </div>
                 <div className="text-2xl font-bold text-[#A67C52] mb-4">{room.size}</div>
                 <p className="text-gray-600 mb-5">{room.description}</p>
