@@ -7,12 +7,11 @@ import IMG_5 from '../assets/images/gallery/img5.jpg';
 import IMG_6 from '../assets/images/gallery/img6.jpg';
 import IMG_7 from '../assets/images/gallery/img7.jpg';
 import IMG_8 from '../assets/images/gallery/img8.jpg';
-import IMG_9 from '../assets/images/gallery/img9.jpg';
-import IMG_10 from '../assets/images/gallery/img10.jpg';
+
 
 const GallerySection = () => {
   const galleryItems = [
-    IMG_1, IMG_2, IMG_3, IMG_4, IMG_5, IMG_6, IMG_7,IMG_8,IMG_9,IMG_10
+    IMG_1, IMG_2, IMG_3, IMG_4, IMG_5, IMG_6, IMG_7,IMG_8
   ];
 
   return (

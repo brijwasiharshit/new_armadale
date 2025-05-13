@@ -59,7 +59,7 @@ const HotelHeroSection = () => {
 
       {/* Floating Book Now for mobile */}
       <div className="md:hidden fixed bottom-6 left-1/2 transform -translate-x-1/2 z-10">
-        <a href="tel:+1234567890">
+        <a href="tel:+91 8630765606">
           <button className="bg-[#A67C52] text-white px-8 py-3 text-sm font-bold rounded-full hover:bg-[#8c6840] transition shadow-xl animate-bounce">
             BOOK NOW
           </button>
