@@ -2,7 +2,7 @@ import HERO_IMG from '../assets/images/gallery/img2.jpg';
 
 const HotelHeroSection = () => {
   return (
-    <section id = 'home' className="relative flex flex-col-reverse md:flex-row items-center justify-between bg-[#f9f3ed] min-h-[90vh] md:min-h-screen">
+    <section id='home' className="relative flex flex-col-reverse md:flex-row items-center justify-between bg-[#f9f3ed] min-h-[90vh] md:min-h-screen">
       {/* Left Content */}
       <div className="w-full md:w-1/2 px-6 sm:px-8 md:px-12 lg:px-16 py-12 md:py-0 space-y-4 sm:space-y-6">
         {/* Stars Rating */}
@@ -12,7 +12,7 @@ const HotelHeroSection = () => {
               <span key={i}>{star}</span>
             ))}
           </div>
-      
+
         </div>
 
         {/* Headline */}
@@ -32,16 +32,16 @@ const HotelHeroSection = () => {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 pt-2">
-        <a href="#services">
-          <button  className="bg-[#A67C52] text-white px-6 py-3 text-sm font-bold rounded-md hover:bg-[#8c6840] transition shadow-md hover:shadow-lg">
-            EXPLORE MORE
-          </button>
+          <a href="#services">
+            <button className="bg-[#A67C52] text-white px-6 py-3 text-sm font-bold rounded-md hover:bg-[#8c6840] transition shadow-md hover:shadow-lg">
+              EXPLORE MORE
+            </button>
           </a>
           <a href="#gallery">
-  <button className="border border-[#A67C52] text-[#A67C52] px-6 py-3 text-sm font-bold rounded-md hover:bg-[#f1e8e0] transition">
-    VIEW GALLERY
-  </button>
-</a>
+            <button className="border border-[#A67C52] text-[#A67C52] px-6 py-3 text-sm font-bold rounded-md hover:bg-[#f1e8e0] transition">
+              VIEW GALLERY
+            </button>
+          </a>
 
         </div>
       </div>
@@ -59,9 +59,11 @@ const HotelHeroSection = () => {
 
       {/* Floating Book Now for mobile */}
       <div className="md:hidden fixed bottom-6 left-1/2 transform -translate-x-1/2 z-10">
-        <button className="bg-[#A67C52] text-white px-8 py-3 text-sm font-bold rounded-full hover:bg-[#8c6840] transition shadow-xl animate-bounce">
-          BOOK NOW
-        </button>
+        <a href="tel:+91 8630765606">
+          <button className="bg-[#A67C52] text-white px-8 py-3 text-sm font-bold rounded-full hover:bg-[#8c6840] transition shadow-xl animate-bounce">
+            BOOK NOW
+          </button>
+        </a>
       </div>
     </section>
   );

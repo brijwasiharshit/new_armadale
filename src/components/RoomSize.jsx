@@ -14,7 +14,7 @@ const RoomSizesSection = () => {
     },
     {
       name: "Standard Rooms",
-      size: "220 sq ft",
+      size: "180 sq ft",
 
       description: "Comfortable and well-appointed rooms perfect for short stays"
     }

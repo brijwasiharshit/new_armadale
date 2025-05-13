@@ -1,6 +1,6 @@
 import React from "react";
-import PRE_BOOKING from '../assets/images/outdoor.png';
-import RECEPTION from '../assets/images/gallery/reception.png'
+import PRE_BOOKING from '../assets/images/gallery/outdoor.jpg';
+import RECEPTION from '../assets/images/gallery/reception.jpg'
 import ROOM from '../assets/images/gallery/img4.jpg'
 const ServicesSection = () => {
   const services = [
