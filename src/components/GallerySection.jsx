@@ -1,4 +1,3 @@
-// components/GallerySection.jsx
 import IMG_1 from '../assets/images/gallery/img1.jpg';
 import IMG_2 from '../assets/images/gallery/img2.jpg';
 import IMG_3 from '../assets/images/gallery/img3.jpg';
@@ -6,7 +5,7 @@ import IMG_4 from '../assets/images/gallery/img4.jpg';
 import IMG_5 from '../assets/images/gallery/img5.jpg';
 import IMG_6 from '../assets/images/gallery/img6.jpg';
 import IMG_7 from '../assets/images/gallery/img7.jpg';
-import IMG_8 from '../assets/images/gallery/img8.jpg';
+import IMG_8 from '../assets/images/gallery/img8.png';
 
 
 const GallerySection = () => {
