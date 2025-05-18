@@ -25,13 +25,16 @@ const StickyNavbar = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md h-20">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <a href="#home" >
+<div className="flex items-center">
             <img 
               src={HOTEL_LOGO} 
               alt="New Armadale Hotel Logo" 
               className="h-16 md:h-20 object-contain"
             />
           </div>
+          </a>
+          
 
           {/* Desktop Menu */}
           <nav className="space-x-8 hidden md:flex text-sm font-semibold text-gray-800">
